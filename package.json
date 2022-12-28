@@ -1,0 +1,30 @@
+{
+  "name": "christmas-tree",
+  "version": "1.0.0",
+  "description": "Three.js Model Loading Demo",
+  "main": "./src/index.js",
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "three": "^0.123.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OrbitGW/Chirstmas-Tree.git"
+  },
+  "keywords": [
+    "Three.js"
+  ],
+  "author": "Chris Cheng",
+  "license": "MIT"
+}
